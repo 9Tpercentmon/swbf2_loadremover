@@ -6,9 +6,11 @@ state ("BattlefrontII") {
 startup{
 	// Adds an option for Galactic Conquest, set as unchecked by default
 	settings.Add("gc", false, "Galactic Conquest");
+	settings.SetToolTip("gc", "Galactic Conquest load removal ruleset: pauses on every loading screen, resumes after loading");
 	
-	// Adds an option for Galactic Conquest, set as unchecked by default
-	settings.Add("other", true, "Other game modes");
+	// Adds an option for Other game modes, set as checked by default
+	settings.Add("other", true, "Other Game Modes");
+	settings.SetToolTip("other", "Other Game Modes load removal ruleset: pauses on Victory/Defeat screen, resumes after loading the next map");
 }
 
 split {
