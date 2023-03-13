@@ -43,4 +43,5 @@ You can also check this video showing how to do it:
 
 ## Credits
 **Galactic Conquest** load time removal and **Autosplitter** made by 9Tpercentmon
+
 All credits to the original Load Removal for **Other Game Modes** to Lako3000
