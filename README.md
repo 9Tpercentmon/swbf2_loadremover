@@ -42,4 +42,5 @@ You can also check this video showing how to do it:
 - You can reach me out on discord at **Montuano#1573** or by joining our discord server https://discord.gg/f8mHxWb
 
 ## Credits
-All credits to the original Load Removal to Lako3000
+**Galactic Conquest** load time removal and **Autosplitter** made by 9Tpercentmon
+All credits to the original Load Removal for **Other Game Modes** to Lako3000
