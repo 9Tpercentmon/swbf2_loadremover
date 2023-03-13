@@ -23,7 +23,7 @@ If you have another version in which it doesn't work, see the **Contact** sectio
 6. Back on the **Livesplit** window, Right-click again and go **Compare Against > Game Time**
 7. If have already inserted all the splits you want, you are already set to go 😄
 
-You can also check this video showing how to do it:
+You can also check this video showing how to do it: [sorry, I still need to make one :P]
 
 **Important note:** if you have already added the autosplitter through the **Layout** option, you should remove it from the layout so it won't have any conflict.
 
