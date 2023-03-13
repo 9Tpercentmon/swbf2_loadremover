@@ -1,5 +1,5 @@
 state ("BattlefrontII") {
-    int victoryScreen: 0x1AAFCA0;
+    	int victoryScreen: 0x1AAFCA0;
 	int loadingGame: 0x05CEFC0;
 }
 
