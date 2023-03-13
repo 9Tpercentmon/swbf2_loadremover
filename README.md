@@ -38,10 +38,10 @@ You can also check this video showing how to do it: [sorry, I still need to make
   - If both **Galactic Conquest** and **Other Game Modes** are enabled, it will use the **Galactic Conquest** ruleset;
 - If by any chance you only want to Autosplitter function without the load removal, you can disable both **Galactic Conquest** and **Other Game Modes**. But keep in mind that all categories are timed removing the loading time.
 
-## Contact
+## ✉Contact
 - You can reach me out on discord at **Montuano#1573** or by joining our discord server https://discord.gg/f8mHxWb
 
-## Credits
+## ©Credits
 **Galactic Conquest** load time removal and **Autosplitter** made by 9Tpercentmon
 
 All credits to the original Load Removal for **Other Game Modes** to Lako3000
