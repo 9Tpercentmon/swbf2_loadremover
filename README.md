@@ -40,3 +40,6 @@ You can also check this video showing how to do it:
 
 ## Contact
 - You can reach me out on discord at **Montuano#1573** or by joining our discord server https://discord.gg/f8mHxWb
+
+## Credits
+All credits to the original Load Removal to Lako3000
