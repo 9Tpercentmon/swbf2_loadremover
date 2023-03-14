@@ -17,7 +17,7 @@ If you have another version in which it doesn't work, see the **Contact** sectio
 ## 💿How to install (no download required)
 1. Right-click **Livesplit** and select **Edit Split...**
 2. In the **Game Name** option, search for **Star Wars: Battlefront II** and click it
-3. Under **Start timer at** it should show a text saying 'Load Removal is avaiable'. Click on **Activate**.
+3. Just below **Start timer at** it should show a text saying 'Load Removal is avaiable'. Click on **Activate**.
 4. Click on **Settings**, make sure the configuration fits your needs (see the **Features** section above for help) and press **OK**
 5. On the **Splits editor** window, press OK
 6. Back on the **Livesplit** window, Right-click again and go **Compare Against > Game Time**
