@@ -63,4 +63,4 @@ You will find all setting at Edit Splits > Settings
 
 All credits to the original Load Removal for **Other Game Modes** to *Lako3000*
 
-DarkLightBoco for the awesome tutorial on how to install and use
+DarkLightBoco for the awesome video tutorial on how to install and use
