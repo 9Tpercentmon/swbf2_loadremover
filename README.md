@@ -71,7 +71,7 @@ I know the subsplits part my be difficult to follow, however it's worth mentioni
     - Check if you have a **Scriptable Auto Splitter** on your layout (Right-click LiveSplit, then go Edit Layout). If there is a **Scriptable Auto Splitter** there, select it and click on the **minus** button on the left.
   
 ## ✉ Contact
-- You can reach me out on discord at **Montuano** or by joining our [discord server](https://discord.gg/f8mHxWb) 
+- You can reach me out on discord at **@Montuano** or by joining our [discord server](https://discord.gg/f8mHxWb) 
 
 ## © Credits
 
