@@ -54,6 +54,7 @@ You will find all setting at Edit Splits > Settings. Dont worry if you forget wh
   - **Hunt** (4 subsplits): splits on 10 / 20 / 30 / 40 points
   - **XL** (4 subsplits): splits on 70 / 140 / 210 / 280 points
 
+Examples of subsplits:
  ![subsplits examples](https://github.com/9Tpercentmon/swbf2_loadremover/blob/main/github_subsplits.png?raw=true)
 I know the subsplits part my be difficult to follow, however it's worth mentioning and **it's NOT mandatory at all**. It can be more useful on Individual Levels (ILs) if you are trying to optimize your segments, but even on ILs it's not required to use it.
   
