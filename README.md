@@ -67,9 +67,9 @@ I know the subsplits part my be difficult to follow, however it's worth mentioni
   
 ## 📜 FAQ
 
-1. The timer isn't pausing (Steam only)
+1. The timer isn't pausing
     - Make sure you have set LiveSplit to compare against Game Time (Right-click on LiveSplit, then go **Compare Against > Game Time**)
-    - Check if you have either **Galactic Conquest** or **Other Game Modes** enabled. The load removal only works if one of them is active.
+    - Check if you have **Load Removal Ruleset** and either **Galactic Conquest** or **Campaign/Instant Action** enabled. The load removal only works if **Load Removal Ruleset** along with **one** of the laters are active.
   
     If you already checked both these points and still have problems with it, DM me or ask for help in our discord (see **Contact** below)
 2. The timer isn't pausing (other sources)
@@ -77,7 +77,11 @@ I know the subsplits part my be difficult to follow, however it's worth mentioni
     
 3. Wierd things are happening pls help
     - Check if you have a **Scriptable Auto Splitter** on your layout (Right-click LiveSplit, then go Edit Layout). If there is a **Scriptable Auto Splitter** there, select it and click on the **minus** button on the left.
-  
+
+4. I'm getting a _"It appears you're running an unknown version of SWBF2"_ error.
+    - Make sure you are using the default executable for your game version. If you are using a modified version, it may not work properly. Check the **Contact** section below for more help.
+
+     
 ## ✉ Contact
 - You can reach me out on discord at **@Montuano** or by joining our [discord server](https://discord.gg/f8mHxWb) 
 
