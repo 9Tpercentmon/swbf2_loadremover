@@ -3,7 +3,9 @@
 LoadRemover and Autosplitter component for **Star Wars: Battlefront II (2005)** for use in LiveSplit.
 
 ## 🆚Supported version
-- Steam (current patch)
+- **Steam** (current patch) - Full Support
+- **GOG** (current patch) - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
+- **Classic Collection (steam)** (current patch) - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
 
 If you have another version in which it doesn't work, see the **Contact** section and let me know
 
@@ -82,13 +84,14 @@ I know the subsplits part my be difficult to follow, however it's worth mentioni
 ## © Credits
 
 **9Tpercentmon**
-- **Galactic Conquest** load time removal and final victory screen split
-- **Instant Action** subsplitter
-- **Autostart**
+- **Galactic Conquest** load time removal and final victory screen split (steam,gog,classic collection (steam))
+- **Instant Action** subsplitter (steam,gog,classic collection (steam))
+- **Autostart** (steam,gog,classic collection (steam))
+- **General load removal** (gog,classic collection (steam))
 
 **Lako3000**
-- **General load removal**
-- **Campaign subpslitter**
+- **General load removal** (steam)
+- **Campaign subpslitter**  (steam)
 
 ## 💜 Extra thanks to...
 - **DarkLightBoco** for the awesome video tutorial on how to install and use
