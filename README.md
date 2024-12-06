@@ -94,9 +94,9 @@ I know the subsplits part my be difficult to follow, however it's worth mentioni
 - **Campaign subpslitter**  (steam)
 
 ## 💜 Extra thanks to...
-- **DarkLightBoco** for the awesome video tutorial on how to install and use
+- **DarkLightBoco** for testing and for the awesome video tutorial on how to install and use it
 - **jman40** for the help finding the tables needed for the conquest subsplitter
-- **Austin2075**, **CaptainEmu** and **Kazumus** for testing
+- **Austin2075**, **CaptainEmu**, **Kazumus** and **Maxy_waxy** for testing
 - **BF2 Speedrun Community** for being the best speedrun community!
 
 
