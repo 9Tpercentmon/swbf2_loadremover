@@ -11,7 +11,7 @@ If you have another version in which it doesn't work, see the **Contact** sectio
 - **Autosplitter on the 'Victory' screen** (enabled by default)
 - **Loadremover for Galactic Conquest** (disabled by default)
   - It only pauses the time on actual loading screens and resumes when it finishes loading. Works on every loading screen on GC.
-- **Loadremover for Other Game Modes** (enabled by default)
+- **Loadremover for Campaign/Instant Action** (enabled by default)
   - Pauses the time as soon as you get the **Victory screen** and resumes after the game finishes loading the next map.  
 
 ## 💿How to install (no download required)
@@ -25,11 +25,11 @@ If you have another version in which it doesn't work, see the **Contact** sectio
 
 You can also check [this tutorial by DarkLightBoco](https://www.youtube.com/watch?v=usko-Cj9yxA). Keep in mind some features have been added to this tool since the video recording, so the it's settings will look a bit different.
 
-**Important note:** if you have already added the autosplitter through the **Layout** option, you should **remove it from the layout** so it won't have any conflict.
+**Important note:** if you have already added the autosplitter through the **Layout** option, you should **remove it from the layout** so it won't have any conflict. The most common effect of having both enabled at same time is double splitting on victory.
 
 ## 👨‍🏫 How to use it
 
-You will find all setting at Edit Splits > Settings. Dont worry if you forget what everything there does, you can find some info by mouse hovering each option.
+You will find all setting at _Edit Splits > Settings_. Dont worry if you forget what everything there does, you can find some info by mouse hovering each option.
 
 **Basic Functions**
 - **Start** (enabled by default): Automatically starts your timer as soon as it finishes loading a map. Due to some quircks on this game, there might be a couple frames of delay before it actually starts. This might vary between 100ms and 300ms. This will be taking into account when retiming;
@@ -37,14 +37,19 @@ You will find all setting at Edit Splits > Settings. Dont worry if you forget wh
 - **Split** (enabled by default): Automatically splits as soon as it detects the **Victory/Defeat** Screen; 
   - In case you are playing **Galactic Conquest** and quit a map to loose on purpose, it won't split for you due to the game not showing you the **victory/defeat** screen;
   - Also in **Galactic Conquest**, it also splits at the very last Victory Screen when you beat the whole GC game.
+- **Reset** (enabled by default): Automatically resets the timer when reloading the same map without getting a victory/defeat; 
+  - For it to work, it has to be used along with the **Custom Function** Reset, described below.
+    - I made it that way to prevent accidental resets in case people activate this ASL without checking the settings and the documentation. Better safe than sorry.
+ 
 
 **Custom Functions**
+- **Reset** (disabled by default): It has to be used along the **Reset** just above it.
 - **Load Removal Ruleset** (enabled by default): Allows you to use either the **Galactic Conquest** or **Campaign/Instant Action** load removal. This pauses the timer following the one of the chosen options below. **This must be active so the picked ruleset works**
-  - **Campaign/Instant Action**: Pauses the timer only when you get a **Victory/Defeat** screen and resumes after loading a map. **It's the main load removal** and should be used in all categories but **Galactic Conquest**;
-  - **Galactic Conquest**: Pauses the timer only on loading screens. That means that it wont pause at **Victory/Defeat**;
+  - **Campaign/Instant Action**: Pauses the timer only when you get a **Victory/Defeat** screen and resumes after loading a map. **It's the main load removal** and should be used in all categories, with the exception of **Galactic Conquest**;
+  - **Galactic Conquest**: Pauses the timer only on loading screens. That means that it wont pause at **Victory/Defeat** (but will split at it if you enabled **Split**);
   - If both **Campaign/Instant Action** and **Galactic Conquest** are enabled, it will use the **Galactic Conquest** ruleset;
  
-- **Campaign Subpslits**: Allows you to automatically split on every new objective screen
+- **Campaign Subpslits**: Allows you to automatically split on every new objective screen. You can find a file with all campaign maps and subsplits for any% in the ![resource page](https://www.speedrun.com/swbf2/resources/zlmje) of the ![swbf2 speedrun page](https://www.speedrun.com/swbf2) 
 
 - **IA Subsplits**: Allows you to automatically split the timer every subgoal according to a given **Instant Action** mode. Subsplits must also be added on LiveSplit **Edit Splits** menu. Check the pre-set targets below:
   - **Assault** (4 subsplits): subsplits on 36 / 72 / 100 / 140 points;
@@ -54,9 +59,9 @@ You will find all setting at Edit Splits > Settings. Dont worry if you forget wh
   - **Hunt** (4 subsplits): splits on 10 / 20 / 30 / 40 points
   - **XL** (4 subsplits): splits on 70 / 140 / 210 / 280 points
 
-Examples of subsplits:
+Examples of Instant Action subsplits:
  ![subsplits examples](https://github.com/9Tpercentmon/swbf2_loadremover/blob/main/github_subsplits.png?raw=true)
-I know the subsplits part my be difficult to follow, however it's worth mentioning and **it's NOT mandatory at all**. It can be more useful on Individual Levels (ILs) if you are trying to optimize your segments, but even on ILs it's not required to use it.
+I know the subsplits part my be difficult to follow, however it's worth mentioning and **it's NOT mandatory at all**. It can be more useful on Individual Levels (ILs) if you are trying to optimize your segments, but even on ILs it's not required to use it and not many people do.
   
 ## 📜 FAQ
 
