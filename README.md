@@ -51,7 +51,7 @@ You will find all setting at _Edit Splits > Settings_. Dont worry if you forget 
   - **Galactic Conquest**: Pauses the timer only on loading screens. That means that it wont pause at **Victory/Defeat** (but will split at it if you enabled **Split**);
   - If both **Campaign/Instant Action** and **Galactic Conquest** are enabled, it will use the **Galactic Conquest** ruleset;
  
-- **Campaign Subpslits**: Allows you to automatically split on every new objective screen. You can find a file with all campaign maps and subsplits for any% in the ![resource page](https://www.speedrun.com/swbf2/resources/zlmje) of the ![swbf2 speedrun page](https://www.speedrun.com/swbf2) 
+- **Campaign Subpslits**: Allows you to automatically split on every new objective screen. You can find a file with all campaign maps and subsplits for any% in the [resource page](https://www.speedrun.com/swbf2/resources/zlmje) of the [swbf2 speedrun page](https://www.speedrun.com/swbf2) 
 
 - **IA Subsplits**: Allows you to automatically split the timer every subgoal according to a given **Instant Action** mode. Subsplits must also be added on LiveSplit **Edit Splits** menu. Check the pre-set targets below:
   - **Assault** (4 subsplits): subsplits on 36 / 72 / 100 / 140 points;
