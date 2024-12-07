@@ -216,7 +216,7 @@ update{
 
 init {
 	
-	var module = modules.First();
+	var module = modules.First(m => m.FileName.EndsWith(".exe"));
 	var name = module.ModuleName.ToLower();
 	/*
 	*****************************************************
