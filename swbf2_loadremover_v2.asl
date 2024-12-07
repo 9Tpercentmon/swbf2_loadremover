@@ -216,7 +216,7 @@ update{
 
 init {
 	
-	var module = modules.First(m => m.FileName.EndsWith(".exe"));
+	var module = modules.First(m => m.FileName.EndsWith(".exe"));  //prevents the rare event of getting ntdll.dll instead of the game exe. 
 	var name = module.ModuleName.ToLower();
 	/*
 	*****************************************************
