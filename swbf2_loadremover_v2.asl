@@ -78,6 +78,87 @@ state ("BattlefrontII", "Steam 1.1 (2005)") {
 	int cpJ_number: 0x00152BE0,0x1B0,0x1C;
 	*/
 }
+
+state ("BattlefrontII", "CD 1.0 (2005)") {
+	int victoryScreen: 	 0x0499AA4; //updated
+	int loadingGame: 	 0x0464940; //updated
+	int objectiveScreen: 0x1974280; //updated
+	string16 endgc: 	 0x19EE994; //updated
+	string18 ifscreen: 	 0x19EE994; //updated
+	int teamOneReinf: 	 0x01AAFCD4,	0x28;
+	int teamTwoReinf: 	 0x01AAFCD4,	0x868;
+	int myTeam: 		 0x1AC6328;
+	int teamOnePoints: 	 0x01AAFCD4,	0x60;
+	int teamTwoPoints: 	 0x01AAFCD8,	0x60;
+	string9 levelName: 	 0x1A560E0;
+	string3 modeName: 	 0x1A560E6;
+	float inGameTime: 	 0x1BA6590;
+	
+	int cpA_team: 	0x00152BE0,0x0,0xC48;
+	int cpB_team: 	0x00152BE0,0x30,0xC48;
+	int cpC_team: 	0x00152BE0,0x60,0xC48;
+	int cpD_team: 	0x00152BE0,0x90,0xC48;
+	int cpE_team: 	0x00152BE0,0xC0,0xC48;
+	int cpF_team: 	0x00152BE0,0xF0,0xC48;
+	int cpG_team: 	0x00152BE0,0x120,0xC48;
+	int cpH_team: 	0x00152BE0,0x150,0xC48;
+	int cpI_team: 	0x00152BE0,0x180,0xC48;
+	int cpJ_team: 	0x00152BE0,0x1B0,0xC48;
+
+	/*
+	int cpA_number: 0x00152BE0,0x0,0x1C;
+	int cpB_number: 0x00152BE0,0x30,0x1C;
+	int cpC_number: 0x00152BE0,0x60,0x1C;
+	int cpD_number: 0x00152BE0,0x90,0x1C;
+	int cpE_number: 0x00152BE0,0xC0,0x1C;
+	int cpF_number: 0x00152BE0,0xF0,0x1C;
+	int cpG_number: 0x00152BE0,0x120,0x1C;
+	int cpH_number: 0x00152BE0,0x150,0x1C;
+	int cpI_number: 0x00152BE0,0x180,0x1C;
+	int cpJ_number: 0x00152BE0,0x1B0,0x1C;
+	*/
+}
+
+state ("BattlefrontII", "Steam 1.2 (2005)") {
+	int victoryScreen: 	 0x05A3E10; //Updated
+	int loadingGame: 	 0x0479A38; //Updated
+	int objectiveScreen: 0x051D6F4; //Updated
+	string16 endgc: 	 0x0479AD4; //Updated
+	string18 ifscreen: 	 0x0479AD4; //Updated
+	int teamOneReinf: 	 0x01AAFCD4,	0x28;
+	int teamTwoReinf: 	 0x01AAFCD4,	0x868;
+	int myTeam: 		 0x1AC6328;
+	int teamOnePoints: 	 0x01AAFCD4,	0x60;
+	int teamTwoPoints: 	 0x01AAFCD8,	0x60;
+	string9 levelName: 	 0x1A560E0;
+	string3 modeName: 	 0x1A560E6;
+	float inGameTime: 	 0x1BA6590;
+	
+	int cpA_team: 	0x00152BE0,0x0,0xC48;
+	int cpB_team: 	0x00152BE0,0x30,0xC48;
+	int cpC_team: 	0x00152BE0,0x60,0xC48;
+	int cpD_team: 	0x00152BE0,0x90,0xC48;
+	int cpE_team: 	0x00152BE0,0xC0,0xC48;
+	int cpF_team: 	0x00152BE0,0xF0,0xC48;
+	int cpG_team: 	0x00152BE0,0x120,0xC48;
+	int cpH_team: 	0x00152BE0,0x150,0xC48;
+	int cpI_team: 	0x00152BE0,0x180,0xC48;
+	int cpJ_team: 	0x00152BE0,0x1B0,0xC48;
+
+	/*
+	int cpA_number: 0x00152BE0,0x0,0x1C;
+	int cpB_number: 0x00152BE0,0x30,0x1C;
+	int cpC_number: 0x00152BE0,0x60,0x1C;
+	int cpD_number: 0x00152BE0,0x90,0x1C;
+	int cpE_number: 0x00152BE0,0xC0,0x1C;
+	int cpF_number: 0x00152BE0,0xF0,0x1C;
+	int cpG_number: 0x00152BE0,0x120,0x1C;
+	int cpH_number: 0x00152BE0,0x150,0x1C;
+	int cpI_number: 0x00152BE0,0x180,0x1C;
+	int cpJ_number: 0x00152BE0,0x1B0,0x1C;
+	*/
+}
+
 state ("BattlefrontII", "GOG 1.1 (2005)") {
 	int victoryScreen: 	 0x1AB1054;
 	int loadingGame: 	 0x5D0460;
@@ -250,6 +331,8 @@ init {
 	//Steam 1.1		BD9F9CA3B311877308E8C26E155AB7E6
 	//GOG 1.1		C6FE7575F439A08234FD987D28400556  
 	//CC Update3	9CDA7F3F9FF65B58B661086407CB5D11 
+	//CD 1.0		60BB32B4E2C97C8FB052755F5E73DF03
+	//Steam 1.2 	F0B8EAFEE6F54928158741304EBBDB7F
 	
 	
 	switch(MD5Hash)
@@ -262,6 +345,12 @@ init {
 			break;
 		case "C6FE7575F439A08234FD987D28400556":
 			version = "GOG 1.1 (2005)";
+			break;
+		case "60BB32B4E2C97C8FB052755F5E73DF03":
+			version = "CD 1.0 (2005)";
+			break;
+		case "F0B8EAFEE6F54928158741304EBBDB7F":
+			version = "Steam 1.2 (2005)";
 			break;
 			
 		default:
