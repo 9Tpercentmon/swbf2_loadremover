@@ -3,8 +3,10 @@
 LoadRemover and Autosplitter component for **Star Wars: Battlefront II (2005)** for use in LiveSplit.
 
 ## 🆚Supported version
-- **Steam** (current patch) - Full Support
-- **GOG** (current patch) - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
+- **CD 1.0** - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
+- **Steam 1.1** (current patch) - Full Support
+- **Steam 1.2** (february 2021 patch that was reverted) - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
+- **GOG 1.1** (current patch) - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
 - **Classic Collection (steam)** (current patch) - Support to the basic autostart, autoreset, autosplit and loadremoval. See documentation below for more info.
 
 If you have another version in which it doesn't work, see the **Contact** section and let me know
