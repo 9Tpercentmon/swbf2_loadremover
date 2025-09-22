@@ -121,7 +121,7 @@ state ("BattlefrontII", "CD 1.0 (2005)") {
 
 state ("BattlefrontII", "Steam 1.2 (2005)") {
 	int victoryScreen: 	 0x05A3E10; //Updated
-	int loadingGame: 	 0x0479A38; //Updated
+	int loadingGame: 	 0x079B7D8; //Updated
 	int objectiveScreen: 0x051D6F4; //Updated
 	string16 endgc: 	 0x0479AD4; //Updated
 	string18 ifscreen: 	 0x0479AD4; //Updated
