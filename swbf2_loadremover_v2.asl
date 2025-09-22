@@ -81,12 +81,12 @@ state ("BattlefrontII", "Steam 1.1 (2005)") {
 
 state ("BattlefrontII", "CD 1.0 (2005)") {
 	int victoryScreen: 	 0x0499AA4; //updated
-	int loadingGame: 	 0x0464940; //updated
+	int loadingGame: 	 0x0464940; //updated (might be 0197353C instead)
 	int objectiveScreen: 0x1974280; //updated
 	string16 endgc: 	 0x19EE994; //updated
 	string18 ifscreen: 	 0x19EE994; //updated
-	int teamOneReinf: 	 0x01AAFCD4,	0x28;
-	int teamTwoReinf: 	 0x01AAFCD4,	0x868;
+	int teamOneReinf: 	 0x00499ACC,	0x28; //updated
+	int teamTwoReinf: 	 0x01AAFCD4,	0x868; //updated
 	int myTeam: 		 0x1AC6328;
 	int teamOnePoints: 	 0x01AAFCD4,	0x60;
 	int teamTwoPoints: 	 0x01AAFCD8,	0x60;
@@ -125,8 +125,8 @@ state ("BattlefrontII", "Steam 1.2 (2005)") {
 	int objectiveScreen: 0x051D6F4; //Updated
 	string16 endgc: 	 0x0479AD4; //Updated
 	string18 ifscreen: 	 0x0479AD4; //Updated
-	int teamOneReinf: 	 0x01AAFCD4,	0x28;
-	int teamTwoReinf: 	 0x01AAFCD4,	0x868;
+	int teamOneReinf: 	 0x005A3DD4,	0x28; //Updated
+	int teamTwoReinf: 	 0x005A3DD4,	0x868; //Updated
 	int myTeam: 		 0x1AC6328;
 	int teamOnePoints: 	 0x01AAFCD4,	0x60;
 	int teamTwoPoints: 	 0x01AAFCD8,	0x60;
