@@ -86,7 +86,7 @@ state ("BattlefrontII", "CD 1.0 (2005)") {
 	string16 endgc: 	 0x19EE994; //updated
 	string18 ifscreen: 	 0x19EE994; //updated
 	int teamOneReinf: 	 0x00499ACC,	0x28; //updated
-	int teamTwoReinf: 	 0x01AAFCD4,	0x868; //updated
+	int teamTwoReinf: 	 0x00499ACC,	0x868; //updated
 	int myTeam: 		 0x1AC6328;
 	int teamOnePoints: 	 0x01AAFCD4,	0x60;
 	int teamTwoPoints: 	 0x01AAFCD8,	0x60;
